@@ -1,0 +1,74 @@
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.navbar__logo {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__icon {
+    margin-right: 8px;
+    color: black;
+}
+
+.navbar__text {
+    font-weight: normal;
+}
+
+.navbar__text:strong {
+    font-weight: bold;
+}
+
+.navbar__auth {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__btn {
+    background-color: lightgrey;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.navbar__btn:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+.navbar__user {
+    color: white;
+    font-size: 16px;
+}
+
+.email__character {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email__character:hover {
+    background-color: lightblue;
+}
